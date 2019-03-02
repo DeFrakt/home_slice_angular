@@ -11,9 +11,9 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class CcComponent implements OnInit {
   payment: any;
   amount: any;
-  ccInfo: {};
-  ccForm:{};
-  form:{};
+  ccInfo: any;
+  ccForm:any;
+  form: any;
  
 
   constructor(private _httpService: HttpService, private router: Router, private _route: ActivatedRoute) { }

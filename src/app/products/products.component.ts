@@ -9,9 +9,9 @@ import { Router, ActivatedRoute } from '@angular/router';
 })
 export class ProductsComponent implements OnInit {
   caprese = false;
-  ccInfo: {};
+  ccInfo: any;
   pepperoni = false;
-  payment: {};
+  payment: any;
   amount = 0;
   
   constructor(private _httpService: HttpService, private router: Router, private _route: ActivatedRoute) { }
